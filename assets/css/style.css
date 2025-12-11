@@ -1,0 +1,125 @@
+/* assets/css/style.css */
+:root {
+    --primary-color: #2ecc71;       /* Fresh Green */
+    --secondary-color: #e8f5e9;     /* Very Light Mint */
+    --text-dark: #2c3e50;           /* Soft Dark Blue/Gray */
+    --text-light: #7f8c8d;
+    --accent-orange: #f39c12;       /* Happy Orange for alerts */
+    --sidebar-width: 260px;
+}
+
+body {
+    background-color: #f4f7f6;
+    font-family: 'Poppins', sans-serif; /* Modern, clean font */
+    color: var(--text-dark);
+    overflow-x: hidden;
+}
+
+/* Sidebar */
+.sidebar {
+    width: var(--sidebar-width);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.03);
+    padding: 2rem;
+    z-index: 100;
+}
+
+.brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    color: var(--text-light);
+    text-decoration: none;
+    border-radius: 12px;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav-link:hover, .nav-link.active {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.nav-link i { margin-right: 12px; font-size: 1.1rem; }
+
+/* Main Content */
+.main-content {
+    margin-left: var(--sidebar-width);
+    padding: 2rem 3rem;
+}
+
+/* Cards */
+.custom-card {
+    background: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.02);
+    padding: 2rem;
+    transition: transform 0.2s;
+}
+
+.custom-card:hover { transform: translateY(-2px); }
+
+/* Buttons */
+.btn-primary-custom {
+    background: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    width: 100%;
+    transition: background 0.2s;
+}
+
+.btn-primary-custom:hover { background: #27ae60; }
+
+/* Stats Boxes */
+.stat-box {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+}
+
+.stat-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.bg-green-soft { background: #e8f5e9; color: #2ecc71; }
+.bg-orange-soft { background: #fef5e7; color: #f39c12; }
+.bg-blue-soft { background: #ebf5fb; color: #3498db; }
+
+/* Sections Utility */
+.view-section { display: none; animation: fadeIn 0.4s ease; }
+.view-section.active { display: block; }
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
