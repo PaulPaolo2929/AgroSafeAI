@@ -58,3 +58,4 @@ setInterval(updateMarketData, 5000);
 
 // Run once immediately on load
 updateMarketData();
+
