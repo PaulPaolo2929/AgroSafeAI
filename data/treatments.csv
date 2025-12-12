@@ -1,8 +1,136 @@
 Nitrogen deficiency,50,1,10,0
-Nitrogen deficiency,100,2,20,0
+Nitrogen deficiency,200,1,40,0
+Nitrogen deficiency,50,2,10,0
+Nitrogen deficiency,500,2,100,0
 Powdery mildew,50,1,5,50
-Powdery mildew,100,2,15,150
-Fungal infection,50,1,10,100
-Fungal infection,200,2,40,400
-Pest infestation,50,1,5,20
-Pest infestation,100,2,10,50
+Powdery mildew,200,1,20,200
+Powdery mildew,50,2,5,75
+Powdery mildew,500,2,50,750
+Fungal infection,50,1,5,60
+Fungal infection,200,1,20,240
+Fungal infection,50,2,5,90
+Fungal infection,500,2,50,900
+Leaf Spot,50,1,5,50
+Leaf Spot,200,1,20,200
+Leaf Spot,50,2,5,75
+Leaf Spot,500,2,50,750
+Rust Fungus,50,1,5,55
+Rust Fungus,200,1,20,220
+Rust Fungus,50,2,5,82
+Rust Fungus,500,2,50,825
+Spider Mites,50,1,2,75
+Spider Mites,200,1,10,300
+Spider Mites,50,2,2,112
+Spider Mites,500,2,25,1125
+Aphids,50,1,2,65
+Aphids,200,1,10,260
+Aphids,50,2,2,97
+Aphids,500,2,25,975
+Mosaic Virus,50,1,5,25
+Mosaic Virus,200,1,20,100
+Mosaic Virus,50,2,5,37
+Mosaic Virus,500,2,50,375
+Root Rot,50,1,0,100
+Root Rot,200,1,0,400
+Root Rot,50,2,0,150
+Root Rot,500,2,0,1500
+Iron Deficiency,50,1,10,0
+Iron Deficiency,200,1,40,0
+Iron Deficiency,50,2,10,0
+Iron Deficiency,500,2,100,0
+Phosphorus Deficiency,50,1,10,0
+Phosphorus Deficiency,200,1,40,0
+Phosphorus Deficiency,50,2,10,0
+Phosphorus Deficiency,500,2,100,0
+Calcium Deficiency,50,1,10,0
+Calcium Deficiency,200,1,40,0
+Calcium Deficiency,50,2,10,0
+Calcium Deficiency,500,2,100,0
+Leaf Miners,50,1,2,70
+Leaf Miners,200,1,10,280
+Leaf Miners,50,2,2,105
+Leaf Miners,500,2,25,1050
+Bacterial Wilt,50,1,5,75
+Bacterial Wilt,200,1,20,300
+Bacterial Wilt,50,2,5,112
+Bacterial Wilt,500,2,50,1125
+Potassium Deficiency,50,1,10,0
+Potassium Deficiency,200,1,40,0
+Potassium Deficiency,50,2,10,0
+Potassium Deficiency,500,2,100,0
+Nematodes,50,1,15,100
+Nematodes,200,1,60,400
+Nematodes,50,2,15,150
+Nematodes,500,2,150,1500
+Whiteflies,50,1,2,65
+Whiteflies,200,1,10,260
+Whiteflies,50,2,2,97
+Whiteflies,500,2,25,975
+Thrips Damage,50,1,2,70
+Thrips Damage,200,1,10,280
+Thrips Damage,50,2,2,105
+Thrips Damage,500,2,25,1050
+Slugs or Snails,50,1,5,50
+Slugs or Snails,200,1,20,200
+Slugs or Snails,50,2,5,75
+Slugs or Snails,500,2,50,750
+Botrytis (Gray Mold),50,1,5,60
+Botrytis (Gray Mold),200,1,20,240
+Botrytis (Gray Mold),50,2,5,90
+Botrytis (Gray Mold),500,2,50,900
+Early Blight,50,1,5,55
+Early Blight,200,1,20,220
+Early Blight,50,2,5,82
+Early Blight,500,2,50,825
+Bacterial Spot,50,1,5,75
+Bacterial Spot,200,1,20,300
+Bacterial Spot,50,2,5,112
+Bacterial Spot,500,2,50,1125
+Magnesium Deficiency,50,1,10,0
+Magnesium Deficiency,200,1,40,0
+Magnesium Deficiency,50,2,10,0
+Magnesium Deficiency,500,2,100,0
+Leaf Curl Virus,50,1,5,25
+Leaf Curl Virus,200,1,20,100
+Leaf Curl Virus,50,2,5,37
+Leaf Curl Virus,500,2,50,375
+Blackleg,50,1,5,60
+Blackleg,200,1,20,240
+Blackleg,50,2,5,90
+Blackleg,500,2,50,900
+Scale Insects,50,1,2,75
+Scale Insects,200,1,10,300
+Scale Insects,50,2,2,112
+Scale Insects,500,2,25,1125
+Fruit Fly Larvae,50,1,2,70
+Fruit Fly Larvae,200,1,10,280
+Fruit Fly Larvae,50,2,2,105
+Fruit Fly Larvae,500,2,25,1050
+Japanese Beetle,50,1,2,75
+Japanese Beetle,200,1,10,300
+Japanese Beetle,50,2,2,112
+Japanese Beetle,500,2,25,1125
+Mealybugs,50,1,2,70
+Mealybugs,200,1,10,280
+Mealybugs,50,2,2,105
+Mealybugs,500,2,25,1050
+Boron Deficiency,50,1,10,0
+Boron Deficiency,200,1,40,0
+Boron Deficiency,50,2,10,0
+Boron Deficiency,500,2,100,0
+Root Knot Nematode,50,1,15,100
+Root Knot Nematode,200,1,60,400
+Root Knot Nematode,50,2,15,150
+Root Knot Nematode,500,2,150,1500
+Sunscald,50,1,5,0
+Sunscald,200,1,20,0
+Sunscald,50,2,5,0
+Sunscald,500,2,50,0
+Scab Disease,50,1,5,50
+Scab Disease,200,1,20,200
+Scab Disease,50,2,5,75
+Scab Disease,500,2,50,750
+Bacterial Canker,50,1,5,75
+Bacterial Canker,200,1,20,300
+Bacterial Canker,50,2,5,112
+Bacterial Canker,500,2,50,1125
