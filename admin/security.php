@@ -93,7 +93,7 @@ $test_user_id = 1;
 <body>
 
     <nav class="sidebar">
-        <h4 class="mb-4 fw-bold"><i class="fas fa-leaf text-success me-2"></i> AGRO<span class="text-white">SAFE</span></h4>
+        <div class="brand"><i class="fas fa-leaf text-success me-2"></i> AGRO<span class="text-white">SAFE</span></div>
         <small class="fw-bold text-uppercase text-light mb-4 d-block opacity-75" style="font-size:0.7rem;">Admin Panel</small>
         <div class="nav flex-column">
             <a href="dashboard.php" class="nav-link"><i class="fas fa-grid-2"></i> Dashboard Overview</a>

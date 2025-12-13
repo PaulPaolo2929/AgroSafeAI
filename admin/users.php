@@ -73,7 +73,7 @@ $users = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <div class="brand"><i class="fas fa-leaf text-success me-2"></i> AGRO<span class="text-white">SAFE</span></div>
         <small class="fw-bold text-uppercase text-light mb-4 d-block opacity-75" style="font-size:0.7rem;">Admin Panel</small>
         <div class="nav flex-column">
-            <a href="dashboard.php" class="nav-link"><i class="fas fa-grid-2"></i> Dashboard Overview</a>
+            <a href="dashboard.php" class="nav-link"><i class="fas fa-grid-"></i> Dashboard Overview</a>
             <a href="users.php" class="nav-link active"><i class="fas fa-users"></i> Farmer Management</a>
             <a href="scans.php" class="nav-link"><i class="fas fa-database"></i> Scan History</a>
             <a href="settings.php" class="nav-link"><i class="fas fa-sliders-h"></i> System Settings</a>
