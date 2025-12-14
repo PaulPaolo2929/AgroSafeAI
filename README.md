@@ -123,18 +123,18 @@ AgroSafeAI follows a layered system architecture :
 ```bash
 git clone https://github.com/PaulPaolo2929/AgroSafeAI.git
 ``` 
-2. Setup XAMPP
 
-Install XAMPP
+### 2. Setup XAMPP
 
-Start Apache and MySQL
+- Install XAMPP
+- Start Apache and MySQL
+- Move the project folder to:
 
-Move the project folder to:
-
+```bash
 htdocs/
+``` 
 
-3. Install Dependencies
-
+### 3. Install Dependencies
 Make sure Composer is installed, then run:
 
 composer install
