@@ -122,4 +122,91 @@ AgroSafeAI follows a layered system architecture :
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/PaulPaolo2929/AgroSafeAI.git
+``` 
+2. Setup XAMPP
 
+Install XAMPP
+
+Start Apache and MySQL
+
+Move the project folder to:
+
+htdocs/
+
+3. Install Dependencies
+
+Make sure Composer is installed, then run:
+
+composer install
+
+4. Database Setup
+
+Open phpMyAdmin
+
+Create a new MySQL database
+
+Import the SQL file (if provided)
+
+Update database credentials in:
+
+includes/config.php
+
+5. Train Machine Learning Models
+
+Run the training script:
+
+php train.php
+
+
+This will generate .phpml model files inside the models/ directory.
+
+6. Run the System
+
+Open your browser and go to:
+
+http://localhost/AgroSafeAI/
+
+Live Deployment
+
+User Login:
+https://agrosafeai.infinityfreeapp.com/index.php
+
+Admin Login:
+https://agrosafeai.infinityfreeapp.com/admin/login.php
+
+Presentation and Documentation
+
+Final Presentation (Canva):
+https://www.canva.com/design/DAG7Yi5BJSY/8VfjaV3IFT8SyFWz4RcQHA/edit
+
+Final Files and Video (Google Drive):
+https://drive.google.com/drive/folders/1Oe1kAQAojBfmmUTwVu4o3IQexz-6OTzM?usp=sharing
+
+Project Members
+
+Paul Paolo A. Mamugay
+
+Kim Andrei Veloria
+
+Mark Jesus Fidelino
+
+Course Information
+
+Course: ITEP 308 – System Integration and Architecture I
+Academic Term: First Semester, Academic Year 2025–2026
+
+Future Enhancements
+
+Mobile-friendly Progressive Web App (PWA)
+
+SMS or email alerts
+
+Expanded training datasets
+
+Automated model retraining
+
+Advanced analytics dashboard
+
+Conclusion
+
+AgroSafeAI demonstrates a complete system integration project combining web development, machine learning, real-time APIs, and database systems. It delivers a practical and intelligent solution for modern agriculture while meeting academic and enterprise-level requirements.
