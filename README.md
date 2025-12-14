@@ -117,30 +117,6 @@ AgroSafeAI follows a layered system architecture :
 
 ---
 
-## 📂 Project Directory Structure
-AgroSafeAI/
-├── admin/ # Admin panel files
-├── assets/ # CSS and JavaScript files
-│ ├── css/
-│ └── js/
-├── data/ # CSV datasets for ML training
-│ ├── diseases.csv
-│ ├── treatments.csv
-│ └── history.csv
-├── includes/ # Configuration files
-│ └── config.php
-├── models/ # Trained ML models (.phpml)
-│ ├── disease_classifier.phpml
-│ ├── fungicide_predictor.phpml
-│ └── water_predictor.phpml
-├── pages/ # Main system pages
-├── train.php # Model training script
-├── composer.json # Composer dependencies
-└── index.php # System entry point
-
-
----
-
 ## Installation and Setup Instructions
 
 ### 1. Clone the Repository
