@@ -16,7 +16,8 @@
 ![Real-Time API](https://img.shields.io/badge/Real--Time-APIs-brightgreen)
 ![Admin Panel](https://img.shields.io/badge/Admin-Management-red)
 ![Status](https://img.shields.io/badge/Status-Active-success)
-![Live Demo](https://img.shields.io/badge/Live-Demo-blue)
+[![Live Website](https://img.shields.io/badge/Live%20System-AgroSafeAI-success)](https://agrosafeai.infinityfreeapp.com)
+
 
 **AgroSafeAI** is a  web-based smart agriculture decision support system designed to help farmers 👨‍🌾 and agricultural administrators make **accurate, data-driven decisions**.
 
